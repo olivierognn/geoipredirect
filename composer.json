@@ -1,0 +1,16 @@
+{
+  "name": "amasty/AmastyGeoipRedirect",
+  "type": "magento-module",
+  "license":"MIT",
+  "description":"amasty module for georedirect",
+  "require": {
+    "php": ">=5.3",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors":[
+    {
+      "name":"Gennaro Oliviero",
+      "email":"olivierognn@gmail.com"
+    }
+  ]
+}

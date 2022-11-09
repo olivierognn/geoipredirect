@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @author Amasty Team
+* @copyright Copyright (c) 2022 Amasty (https://www.amasty.com)
+* @package GeoIP Redirect
+*/-->
+<config>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <amgeoipredirect>
+                                        <title>GeoIp Redirect</title>
+                                    </amgeoipredirect>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <translate>
+        <modules>
+            <Amasty_GeoipRedirect>
+                <files>
+                    <default>Amasty_GeoipRedirect.csv</default>
+                </files>
+            </Amasty_GeoipRedirect>
+        </modules>
+    </translate>
+</config> 

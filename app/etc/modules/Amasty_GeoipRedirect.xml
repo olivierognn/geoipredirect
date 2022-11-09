@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @author Amasty Team
+* @copyright Copyright (c) 2022 Amasty (https://www.amasty.com)
+* @package GeoIP Redirect
+*/-->
+<config>
+    <modules>
+        <Amasty_GeoipRedirect>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Amasty_GeoipRedirect>
+    </modules>
+</config>
