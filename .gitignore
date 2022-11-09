@@ -6,6 +6,7 @@
 
 /app/etc/local.xml
 .DS_Store
+.idea
 
 /media/*
 !/media/.htaccess
